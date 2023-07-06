@@ -9,4 +9,4 @@ app.get('/*', (req,res) =>{
   res.sendFile(path.join(__dirname, 'build', 'index.html'))
 })
 
-app.listen(1402)
+app.listen(1402, '127.0.0.1')
