@@ -15,7 +15,7 @@ function App() {
     const player = flvjs.createPlayer({
       type: 'flv',
       isLive: true,
-      url: 'https://tv.leet.ar:8035/live/lukks.flv'
+      url: 'https://rtmp.leet.ar:8035/live/lukks.flv'
     })
 
     player.attachMediaElement(video.current)
